@@ -28,6 +28,9 @@ function Navbar() {
       <Link to="/contact">
         <StyledSpan>Contact</StyledSpan>
       </Link>
+      <Link to="/favourites">
+        <StyledSpan>Favourites</StyledSpan>
+      </Link>
     </StyledNavbar>
   );
 }

@@ -17,6 +17,7 @@ function Homepage() {
         clothes.map(({ id, image, name, desc, price }) => (
           <ProductCard
             key={id}
+            id={id}
             image={image}
             name={name}
             desc={desc}
