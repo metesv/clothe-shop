@@ -35,7 +35,11 @@ function App() {
           <Navbar />
           <Switch>
             <Route path="/" exact component={Homepage} />
-            <Route path="/clothes/:id" exact children={<ProductDetails />} />
+            <Route
+              path="/clothes/:paramId"
+              exact
+              children={<ProductDetails />}
+            />
             <Route path="/contact" exact component={Contact} />
             <Route path="/favourites" exact component={Favourites} />
           </Switch>

@@ -28,7 +28,7 @@ function ProductCard({ id, image, name, desc, price }) {
       <h4>{desc}</h4>
       <span>{price}</span>
       <br />
-      <Link to={"/clothes/" + name}>
+      <Link to={"/clothes/" + id}>
         <button>Details</button>
       </Link>
       <button onClick={handleAddFavourites}>Add favorites</button>
